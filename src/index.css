@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg-1: #070816;
+  --bg-2: #101539;
+  --panel-border: rgba(255, 255, 255, 0.12);
+  --text: #edf2ff;
+  --gold: #f2c46d;
+  --blue: #6ddcff;
+  --purple: #b28dff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at top, rgba(44, 60, 157, 0.35), transparent 30%),
+    radial-gradient(circle at 20% 20%, rgba(178, 141, 255, 0.16), transparent 28%),
+    linear-gradient(160deg, var(--bg-1) 0%, #090b1d 45%, var(--bg-2) 100%);
+  color: var(--text);
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(18, 24, 55, 0.75), rgba(8, 10, 28, 0.55));
+  border: 1px solid var(--panel-border);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.gold-gradient {
+  background: linear-gradient(90deg, #ffe7ad 0%, #f2c46d 45%, #fff6d6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.field-base {
+  @apply w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-slate-400 outline-none transition duration-300 focus:bg-white/10 focus:shadow-[0_0_0_4px_rgba(109,220,255,0.08)];
+}
+
+.field-base:focus {
+  border-color: rgba(109, 220, 255, 0.6);
+}
+
+.star {
+  position: absolute;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+  animation: twinkle var(--duration) ease-in-out infinite;
+  animation-delay: var(--delay);
+}
+
+.mesh-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 30px 30px;
+  mask-image: radial-gradient(circle at center, black 50%, transparent 90%);
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}
