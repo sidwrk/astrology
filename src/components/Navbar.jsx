@@ -20,10 +20,10 @@ export function Navbar() {
             </div>
             <div className="min-w-0">
               <div className="truncate font-display text-xl leading-none text-white sm:text-2xl">
-                Mystic Orbit
+                Celestara
               </div>
               <div className="text-[9px] uppercase tracking-[0.28em] text-slate-400 sm:text-[10px] sm:tracking-[0.35em]">
-                Cosmic Guidance
+                Vedic Astrology Studio
               </div>
             </div>
           </a>
@@ -45,7 +45,7 @@ export function Navbar() {
               href="#contact"
               className="hidden rounded-full bg-gradient-to-r from-gold via-amber-200 to-gold px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-gold/20 sm:inline-flex"
             >
-              Book Reading
+              Book Consultation
             </a>
             <button
               type="button"

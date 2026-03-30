@@ -14,14 +14,14 @@ export function HeroSection() {
           className="relative z-10"
         >
           <div className="mb-4 inline-flex max-w-full rounded-full border border-cyan-300/30 bg-cyan-300/10 px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.24em] text-cyan-200 sm:mb-5 sm:px-4 sm:text-xs sm:tracking-[0.35em]">
-            Modern Cosmic Experience
+            Professional Vedic Astrology Guidance
           </div>
           <h1 className="max-w-[11ch] font-display text-[2.9rem] leading-[0.92] text-white sm:text-6xl lg:text-7xl">
-            Decode your
-            <span className="gold-gradient block"> celestial blueprint</span>
+            Insightful guidance
+            <span className="gold-gradient block"> for every life chapter</span>
           </h1>
           <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300 sm:mt-5 sm:text-base">
-            A fast, immersive astrology frontend crafted with motion, 3D depth, and a mobile-first layout for horoscope discovery, kundli insights, and spiritual services.
+            Discover thoughtful astrology services for kundli analysis, daily horoscope insights, compatibility guidance, and personal consultations presented through a refined digital experience.
           </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
@@ -29,13 +29,13 @@ export function HeroSection() {
               href="#kundli"
               className="inline-flex min-h-12 items-center justify-center rounded-full bg-gradient-to-r from-gold via-amber-200 to-gold px-6 py-3 text-center text-sm font-semibold text-slate-950 shadow-lg shadow-gold/20"
             >
-              Generate Birth Chart
+              Request Birth Chart
             </a>
             <a
               href="#services"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-3 text-center text-sm font-semibold text-white"
             >
-              Explore Services
+              View Services
             </a>
           </div>
 
