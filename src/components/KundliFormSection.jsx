@@ -9,8 +9,8 @@ export function KundliFormSection() {
           <div className="border-b border-white/10 p-6 sm:p-8 lg:border-b-0 lg:border-r">
             <SectionHeading
               eyebrow="Kundli Form"
-              title="A clean birth chart intake experience"
-              description="This UI is optimized for thumb reach and quick completion on mobile while still feeling premium on desktop."
+              title="Request your birth chart consultation"
+              description="Share your birth details to receive a professionally prepared kundli reading focused on life direction, relationships, career, and personal growth."
             />
 
             <div className="space-y-4 rounded-[1.75rem] border border-white/10 bg-white/5 p-5">
@@ -85,13 +85,13 @@ export function KundliFormSection() {
             </label>
             <div className="sm:col-span-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm leading-6 text-slate-400">
-                Frontend-only UI with mobile-friendly spacing, validation-ready fields, and premium form styling.
+                Your details help us prepare a more accurate and meaningful consultation experience.
               </p>
               <button
                 type="button"
                 className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-gold via-amber-200 to-gold px-6 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-gold/20"
               >
-                Generate Preview
+                Request Consultation
               </button>
             </div>
           </motion.form>

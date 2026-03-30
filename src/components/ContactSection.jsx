@@ -9,8 +9,8 @@ export function ContactSection() {
           <div className="border-b border-white/10 p-6 sm:p-8 lg:border-b-0 lg:border-r">
             <SectionHeading
               eyebrow="Contact"
-              title="Invite visitors into a modern consultation flow"
-              description="The contact area pairs trust-building copy with a simple responsive form, ready for backend integration later."
+              title="Schedule a consultation with confidence"
+              description="Connect with our team to discuss the guidance you need, ask questions about a service, or reserve a personal astrology session."
             />
 
             <div className="space-y-4">

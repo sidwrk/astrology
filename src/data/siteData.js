@@ -8,9 +8,9 @@ export const navItems = [
 ]
 
 export const stats = [
-  { value: '12+', label: 'Zodiac energies decoded' },
-  { value: '24/7', label: 'Daily cosmic guidance UI' },
-  { value: '98%', label: 'Designed for mobile-first flow' },
+  { value: '1:1', label: 'Personal astrology guidance' },
+  { value: '30 Min', label: 'Premium consultation sessions' },
+  { value: '12+', label: 'Specialized reading services' },
 ]
 
 export const zodiacSigns = [
@@ -37,19 +37,19 @@ export const horoscopeCards = [
 export const services = [
   {
     title: 'Personal Horoscope Reading',
-    description: 'Elegant one-on-one reading UI card for daily, weekly, and monthly forecasts.',
+    description: 'A one-to-one consultation focused on current energies, upcoming opportunities, and practical guidance for everyday decisions.',
   },
   {
     title: 'Kundli Matching',
-    description: 'Relationship compatibility layout for guna matching, dosha checks, and summary insights.',
+    description: 'A detailed compatibility review covering guna matching, dosha considerations, and relationship dynamics.',
   },
   {
     title: 'Career Guidance',
-    description: 'A premium guidance section built for purpose, timing, and major life decisions.',
+    description: 'Insightful support for career direction, timing, strengths, and long-term professional growth.',
   },
   {
     title: 'Gemstone Suggestions',
-    description: 'Display-focused consultation cards for gemstones, energies, and wearing guidance.',
+    description: 'Personalized gemstone recommendations based on your chart, intentions, and suitability.',
   },
 ]
 
@@ -57,17 +57,17 @@ export const testimonials = [
   {
     name: 'Aarav Mehta',
     role: 'Startup Founder',
-    quote: 'The interface feels premium and calm. It makes astrology look futuristic without losing soul.',
+    quote: 'The consultation experience felt thoughtful, refined, and highly personal. The guidance was clear enough to apply immediately.',
   },
   {
     name: 'Riya Kapoor',
     role: 'Wellness Creator',
-    quote: 'The kundli and horoscope sections are beautifully structured for mobile users and easy to explore.',
+    quote: 'The kundli guidance was presented with clarity and care. It helped me understand my chart in a practical and reassuring way.',
   },
   {
     name: 'Naina Shah',
     role: 'Design Consultant',
-    quote: 'The rotating zodiac wheel gives the whole page a signature identity. It feels immersive and fast.',
+    quote: 'The service feels premium from the first interaction. Every detail reflects professionalism, trust, and genuine expertise.',
   },
 ]
 

@@ -7,8 +7,8 @@ export function TestimonialsSection() {
     <section className="section-shell py-16 sm:py-20">
       <SectionHeading
         eyebrow="Testimonials"
-        title="Social proof with a calm, high-end visual language"
-        description="Card-based testimonials stay readable on mobile and become a polished three-column showcase as the screen expands."
+        title="Trusted by clients seeking thoughtful astrological guidance"
+        description="Each experience reflects a careful, professional approach to astrology, combining clarity, empathy, and practical insight."
         align="center"
       />
 
@@ -22,7 +22,7 @@ export function TestimonialsSection() {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ delay: index * 0.08 }}
           >
-            <div className="text-4xl text-gold">“</div>
+            <div className="text-4xl text-gold">{'\u201C'}</div>
             <p className="mt-4 text-sm leading-7 text-slate-300">{item.quote}</p>
             <footer className="mt-6 border-t border-white/10 pt-5">
               <div className="font-display text-2xl text-white">{item.name}</div>

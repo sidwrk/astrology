@@ -7,8 +7,8 @@ export function ServicesSection() {
     <section id="services" className="section-shell py-16 sm:py-20">
       <SectionHeading
         eyebrow="Services"
-        title="Astrology offerings designed as conversion-ready product cards"
-        description="A modern services section with strong hierarchy, glass textures, and enough contrast to keep it fast and readable across device sizes."
+        title="Professional astrology services for clarity and direction"
+        description="Explore tailored consultations designed to support personal decisions, relationship compatibility, career alignment, and long-term spiritual guidance."
       />
 
       <div className="grid gap-4 lg:grid-cols-2">
@@ -28,7 +28,7 @@ export function ServicesSection() {
                 {index + 1}
               </div>
               <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.28em] text-slate-300">
-                Premium UI
+                Consultation
               </span>
             </div>
             <h3 className="mt-6 font-display text-4xl text-white">{service.title}</h3>
@@ -37,7 +37,7 @@ export function ServicesSection() {
               type="button"
               className="mt-6 inline-flex rounded-full border border-gold/30 bg-gold/10 px-4 py-2 text-sm font-medium text-gold"
             >
-              Learn More
+              View Service
             </button>
           </motion.article>
         ))}

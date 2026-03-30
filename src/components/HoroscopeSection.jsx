@@ -9,8 +9,8 @@ export function HoroscopeSection() {
         <div>
           <SectionHeading
             eyebrow="Daily Horoscope"
-            title="A dashboard-style horoscope UI for everyday guidance"
-            description="Designed like a premium wellness product, this section keeps content scannable, atmospheric, and conversion-friendly."
+            title="Daily guidance for love, career, and inner balance"
+            description="Receive a calm, personalized snapshot of today&apos;s energies with insights designed to support better decisions, emotional clarity, and spiritual alignment."
           />
 
           <motion.div
